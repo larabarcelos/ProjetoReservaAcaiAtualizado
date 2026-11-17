@@ -1,0 +1,175 @@
+fonte: monserrat
+código das cores: roxo() verde()
+
+
+
+
+mudanças:
+fonte
+- tirar "multimídia" e incluir em "sobre nós"
+- Cardápio em português mesmo
+
+
+- Açaí
+	Açaí tradicional
+		Tamanhos
+		2x Frutas
+		2x Coberturas
+		4x Complementos
+		1x Topping
+	Açaí zero açúcar
+		Tamanhos
+		2x Frutas
+		2x Coberturas
+		4x Complementos
+		1x Topping
+	Açaí natural
+		Tamanhos
+		2x Frutas
+		2x Coberturas
+		4x Complementos
+		1x Topping
+	Cupuaçu
+		Tamanhos
+		2x Frutas
+		2x Coberturas
+		4x Complementos
+		1x Topping
+	Metade açaí tradicional, metade cupuaçu
+		Tamanhos
+		2x Frutas
+		2x Coberturas
+		4x Complementos
+		1x Topping
+	Metade açaí zero, metade cupuaçu
+		Tamanhos
+		2x Frutas
+		2x Coberturas
+		4x Complementos
+		1x Topping
+	Metade açaí natural, metade cupuaçu
+		Tamanhos
+		2x Frutas
+		2x Coberturas
+		4x Complementos
+		1x Topping
+- Salada de frutas
+	tamanhos
+	frutas
+	2x complementos
+	2x coberturas
+	1x topping
+- Smoothies
+	Smoothie
+		tamanho
+		Sabor sorvete
+		Fruta
+	Açaí mix
+		tamanho
+		Sabor sorvete
+		Fruta
+- Sorvetes 
+	Tamanhos
+	Sabores
+	1 cobertura
+	1 complemento
+- Sucos e vitaminas
+	Sucos
+		tamanhos
+		sabores
+		com/sem açúcar
+	Batidas com leite
+		tamanhos
+		sabores
+		com/sem açúcar
+- Bebidas
+	Água
+	Água com gás
+	Coca cola
+	Cola cola zero
+	Guaraná
+	Guaraná zero
+	Heineken
+
+
+
+
+
+
+
+
+Tamanhos:
+	-Açaí: 350ml, 500ml, 700ml, 1L, 1,8L
+sucos, vitaminas, sorvetes e smoothies e saladas de fruta: 350ml e 500ml.
+Complementos:
+	Choco ball
+	Gotas de chocolate
+	Confete
+	Ovomaltine
+	Amendoim
+	Castanha
+	Paçoca
+	Paçoca sem açúcar
+	Sucrilhos
+	Flocos de arroz
+	Granola
+	Granola sem glúten
+	Granola sem açúcar
+	Farinha láctea
+	Leite em pó
+	Aveia em flocos
+Coberturas:
+	Mel
+	Leite Condensado
+	Creme de leite
+	Cobertura de Amora
+	Cobertura de Tutti Frutti
+	Cobertura de Menta
+	Cobertura de Kiwi
+	Cobertura de Morango
+	Cobertura de Frutas vermelhas
+	Cobertura de Maracujá
+	Cobertura de Caramelo
+	Cobertura de Chocolate
+Frutas:
+	Banana
+	Morango
+	Manga
+	Abacaxi
+	Uva
+Sabores sorvete:
+	Creme
+	Coco
+	Frozen Yogurte
+	Mousse de maracujá
+	Ninho Trufado
+	Ferrero Rocher
+	Morango
+	Pistache
+Sabores sucos:
+	Morango
+	Abacaxi
+	Manga
+	Maracujá
+Suco de açaí(separado)
+Sabores vitaminas:
+	Açaí
+	Banana
+	Morango
+	Abacaxi
+	Manga
+	Maracujá
+Toppings:
+	Açaí
+	Cupuaçu
+	Creme de avelã
+	Creme
+	Coco
+	Frozen Yogurte
+	Mousse de maracujá
+	Ninho Trufado
+	Ferrero Rocher
+	Morango
+	Pistache
+	Chantilly(apenas no topping da salada)
+	

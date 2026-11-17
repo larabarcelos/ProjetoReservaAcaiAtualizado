@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva do Açaí</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="acai.css">
+</head>
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#Home" aria-label="Reserva do Açaí - início">
+                <img src="reserva-do-acai2.png" alt="Logo da Reserva do Açaí">
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal" aria-expanded="false"
+                    aria-label="Abrir ou fechar menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link active" href="#Home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Sobre">Sobre nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Tabela">Tabela de preços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Pedido">Pedido</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="Home">
+        <div class="home-conteudo container">
+            <h1>Reserva do Açaí</h1>
+            <h2>O sabor que deixa seu dia mais gostoso!</h2>
+            <p>
+                Bem-vindo à Reserva do Açaí!<br>
+                Escolha seus sabores, frutas e acompanhamentos favoritos.
+            </p>
+            <a class="botao" href="#Pedido">Faça seu pedido</a>
+        </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section id="Sobre" class="secao-sobre">
+        <div class="container">
+            <h2>Sobre a Reserva do Açaí</h2>
+            <p>
+                A Reserva do Açaí é uma loja dedicada a oferecer
+                açaí, frutas, sorvetes, smoothies e diversas opções
+                para você montar sua combinação favorita.
+            </p>
+            <p>
+                Nossa proposta é proporcionar uma experiência
+                deliciosa e refrescante, com várias opções de
+                tamanhos, sabores e acompanhamentos.
+            </p>
+            <img src="foto1.jpg" alt="Açaí servido com frutas e acompanhamentos"
+                 class="img-fluid imagem-sobre">
+        </div>
+    </section>
+
+    <!-- TABELA DE PREÇOS -->
+    <section id="Tabela">
+        <div class="container">
+            <h2>Tabela de preços</h2>
+            <div class="table-responsive tabela-container">
+                <table class="table table-bordered align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th scope="col">Produto</th>
+                            <th scope="col">350ml</th>
+                            <th scope="col">500ml</th>
+                            <th scope="col">700ml</th>
+                            <th scope="col">1L</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Açaí tradicional</td>
+                            <td>R$ 29,99</td>
+                            <td>R$ 35,99</td>
+                            <td>R$ 42,99</td>
+                            <td>R$ 51,99</td>
+                        </tr>
+                        <tr>
+                            <td>Açaí cremoso</td>
+                            <td>R$ 24,99</td>
+                            <td>R$ 31,99</td>
+                            <td>R$ 35,99</td>
+                            <td>R$ 47,99</td>
+                        </tr>
+                        <tr>
+                            <td>Açaí zero açúcar</td>
+                            <td>R$ 34,99</td>
+                            <td>R$ 39,99</td>
+                            <td>R$ 47,99</td>
+                            <td>R$ 56,99</td>
+                        </tr>
+                        <tr>
+                            <td>Açaí com cupuaçu</td>
+                            <td>R$ 24,99</td>
+                            <td>R$ 31,99</td>
+                            <td>R$ 35,99</td>
+                            <td>R$ 47,99</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- REDES SOCIAIS -->
+    <section id="Redes">
+        <div class="container">
+            <h2>Conheça a Reserva do Açaí</h2>
+            <p>
+                Acompanhe nossas novidades, produtos e combinações
+                através das nossas redes sociais.
+            </p>
+            <div class="botoes-redes">
+                <a class="botao" href="https://www.instagram.com/reservaacai/" target="_blank" rel="noopener noreferrer">Visite nosso Instagram</a>
+                <a class="botao" href="https://www.facebook.com/reservaacai/" target="_blank" rel="noopener noreferrer">Visite nosso Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PEDIDO -->
+    <section id="Pedido">
+        <div class="container">
+            <h2>Faça seu pedido</h2>
+            <p>Monte seu açaí do seu jeito!</p>
+
+            <form id="formPedido" class="form-pedido">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input class="form-control" type="text" id="nome" name="nome"
+                               placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input class="form-control" type="tel" id="telefone" name="telefone"
+                               placeholder="Digite seu telefone" required>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="endereco" class="form-label">Endereço:</label>
+                        <input class="form-control" type="text" id="endereco" name="endereco"
+                               placeholder="Digite seu endereço" required>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="acai" class="form-label">Escolha seu tipo de açaí:</label>
+                        <select class="form-select" id="acai" name="acai" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="Açaí Tradicional">Açaí Tradicional</option>
+                            <option value="Açaí Natural">Açaí Natural</option>
+                            <option value="Açaí com Cupuaçu">Açaí com Cupuaçu</option>
+                            <option value="Açaí Zero Açúcar">Açaí Zero Açúcar</option>
+                            <option value="Cupuaçu">Cupuaçu</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="tamanho" class="form-label">Escolha o tamanho:</label>
+                        <select class="form-select" id="tamanho" name="tamanho" required>
+                            <option value="">Selecione um tamanho</option>
+                            <option value="350ml">350ml</option>
+                            <option value="500ml">500ml</option>
+                            <option value="700ml">700ml</option>
+                            <option value="1L">1L</option>
+                        </select>
+                    </div>
+                </div>
+
+                <fieldset class="grupo-opcoes">
+                    <legend>Selecione seus complementos</legend>
+                    <p class="texto-limite">Escolha até 4 complementos para o seu pedido.</p>
+                    <div class="opcoes-checkbox">
+                        <input type="checkbox" id="complemento1" name="complementos" value="Choco Ball"><label for="complemento1">Choco Ball</label>
+                        <input type="checkbox" id="complemento2" name="complementos" value="Gotas de chocolate"><label for="complemento2">Gotas de chocolate</label>
+                        <input type="checkbox" id="complemento3" name="complementos" value="Confete"><label for="complemento3">Confete</label>
+                        <input type="checkbox" id="complemento4" name="complementos" value="Ovomaltine"><label for="complemento4">Ovomaltine</label>
+                        <input type="checkbox" id="complemento5" name="complementos" value="Amendoim"><label for="complemento5">Amendoim</label>
+                        <input type="checkbox" id="complemento6" name="complementos" value="Castanha"><label for="complemento6">Castanha</label>
+                        <input type="checkbox" id="complemento7" name="complementos" value="Paçoca"><label for="complemento7">Paçoca</label>
+                        <input type="checkbox" id="complemento8" name="complementos" value="Paçoca sem açúcar"><label for="complemento8">Paçoca sem açúcar</label>
+                        <input type="checkbox" id="complemento9" name="complementos" value="Sucrilhos"><label for="complemento9">Sucrilhos</label>
+                        <input type="checkbox" id="complemento10" name="complementos" value="Flocos de arroz"><label for="complemento10">Flocos de arroz</label>
+                        <input type="checkbox" id="complemento11" name="complementos" value="Granola"><label for="complemento11">Granola</label>
+                        <input type="checkbox" id="complemento12" name="complementos" value="Granola sem glúten"><label for="complemento12">Granola sem glúten</label>
+                        <input type="checkbox" id="complemento13" name="complementos" value="Granola sem açúcar"><label for="complemento13">Granola sem açúcar</label>
+                        <input type="checkbox" id="complemento14" name="complementos" value="Farinha láctea"><label for="complemento14">Farinha láctea</label>
+                        <input type="checkbox" id="complemento15" name="complementos" value="Leite em pó"><label for="complemento15">Leite em pó</label>
+                        <input type="checkbox" id="complemento16" name="complementos" value="Aveia em flocos"><label for="complemento16">Aveia em flocos</label>
+                    </div>
+                    <small class="contador" id="contador-complementos" aria-live="polite">0 de 4 selecionados</small>
+                </fieldset>
+
+                <fieldset class="grupo-opcoes">
+                    <legend>Selecione suas coberturas</legend>
+                    <p class="texto-limite">Escolha até 2 coberturas para o seu pedido.</p>
+                    <div class="opcoes-checkbox">
+                        <input type="checkbox" id="cobertura1" name="coberturas" value="Mel"><label for="cobertura1">Mel</label>
+                        <input type="checkbox" id="cobertura2" name="coberturas" value="Leite condensado"><label for="cobertura2">Leite condensado</label>
+                        <input type="checkbox" id="cobertura3" name="coberturas" value="Creme de leite"><label for="cobertura3">Creme de leite</label>
+                        <input type="checkbox" id="cobertura4" name="coberturas" value="Cobertura de amora"><label for="cobertura4">Cobertura de amora</label>
+                        <input type="checkbox" id="cobertura5" name="coberturas" value="Cobertura de tutti frutti"><label for="cobertura5">Cobertura de tutti frutti</label>
+                        <input type="checkbox" id="cobertura6" name="coberturas" value="Cobertura de menta"><label for="cobertura6">Cobertura de menta</label>
+                        <input type="checkbox" id="cobertura7" name="coberturas" value="Cobertura de kiwi"><label for="cobertura7">Cobertura de kiwi</label>
+                        <input type="checkbox" id="cobertura8" name="coberturas" value="Cobertura de morango"><label for="cobertura8">Cobertura de morango</label>
+                        <input type="checkbox" id="cobertura9" name="coberturas" value="Cobertura de frutas vermelhas"><label for="cobertura9">Cobertura de frutas vermelhas</label>
+                        <input type="checkbox" id="cobertura10" name="coberturas" value="Cobertura de maracujá"><label for="cobertura10">Cobertura de maracujá</label>
+                        <input type="checkbox" id="cobertura11" name="coberturas" value="Cobertura de caramelo"><label for="cobertura11">Cobertura de caramelo</label>
+                        <input type="checkbox" id="cobertura12" name="coberturas" value="Cobertura de chocolate"><label for="cobertura12">Cobertura de chocolate</label>
+                    </div>
+                    <small class="contador" id="contador-coberturas" aria-live="polite">0 de 2 selecionadas</small>
+                </fieldset>
+
+                <fieldset class="grupo-opcoes">
+                    <legend>Selecione suas frutas</legend>
+                    <p class="texto-limite">Escolha até 2 frutas para o seu pedido.</p>
+                    <div class="opcoes-checkbox">
+                        <input type="checkbox" id="fruta1" name="frutas" value="Banana"><label for="fruta1">Banana</label>
+                        <input type="checkbox" id="fruta2" name="frutas" value="Morango"><label for="fruta2">Morango</label>
+                        <input type="checkbox" id="fruta3" name="frutas" value="Manga"><label for="fruta3">Manga</label>
+                        <input type="checkbox" id="fruta4" name="frutas" value="Abacaxi"><label for="fruta4">Abacaxi</label>
+                        <input type="checkbox" id="fruta5" name="frutas" value="Uva"><label for="fruta5">Uva</label>
+                    </div>
+                    <small class="contador" id="contador-frutas" aria-live="polite">0 de 2 selecionadas</small>
+                </fieldset>
+
+                <fieldset class="grupo-opcoes">
+                    <legend>Selecione seus toppings</legend>
+                    <p class="texto-limite">Escolha 1 topping para o seu pedido.</p>
+                    <div class="opcoes-checkbox">
+                        <input type="checkbox" id="topping1" name="toppings" value="Açaí"><label for="topping1">Açaí</label>
+                        <input type="checkbox" id="topping2" name="toppings" value="Cupuaçu"><label for="topping2">Cupuaçu</label>
+                        <input type="checkbox" id="topping3" name="toppings" value="Creme de avelã"><label for="topping3">Creme de avelã</label>
+                        <input type="checkbox" id="topping4" name="toppings" value="Creme"><label for="topping4">Creme</label>
+                        <input type="checkbox" id="topping5" name="toppings" value="Coco"><label for="topping5">Coco</label>
+                        <input type="checkbox" id="topping6" name="toppings" value="Frozen Yogurte"><label for="topping6">Frozen Yogurte</label>
+                        <input type="checkbox" id="topping7" name="toppings" value="Mousse de maracujá"><label for="topping7">Mousse de maracujá</label>
+                        <input type="checkbox" id="topping8" name="toppings" value="Ninho Trufado"><label for="topping8">Ninho Trufado</label>
+                        <input type="checkbox" id="topping9" name="toppings" value="Ferrero Rocher"><label for="topping9">Ferrero Rocher</label>
+                        <input type="checkbox" id="topping10" name="toppings" value="Morango"><label for="topping10">Morango</label>
+                        <input type="checkbox" id="topping11" name="toppings" value="Pistache"><label for="topping11">Pistache</label>
+                        <input type="checkbox" id="topping12" name="toppings" value="Chantilly"><label for="topping12">Chantilly</label>
+                    </div>
+                    <small class="contador" id="contador-toppings" aria-live="polite">0 de 1 selecionado</small>
+                </fieldset>
+
+                <div class="mt-4">
+                    <label for="observacoes" class="form-label">Observações:</label>
+                    <textarea class="form-control" id="observacoes" name="observacoes"
+                              placeholder="Alguma observação sobre o seu pedido?"></textarea>
+                </div>
+
+                <button type="submit" class="botao botao-enviar">Revisar pedido</button>
+                <div id="resultadoPedido" class="resultado-pedido" role="status" aria-live="polite"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container">
+            <h2>Reserva do Açaí</h2>
+            <p>Acesse nossas redes sociais:</p>
+            <div class="links-rodape">
+                <a href="https://www.instagram.com/reservaacai/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.facebook.com/reservaacai/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.ifood.com/reservadoacai" target="_blank" rel="noopener noreferrer">iFood</a>
+                <a href="https://delivery.yooga.app/reservadoacai/tabs/home" target="_blank" rel="noopener noreferrer">Delivery</a>
+            </div>
+            <p id="copyright">&copy; 2026 Reserva do Açaí. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="acai.js"></script>
+</body>
+</html>
